@@ -41,7 +41,7 @@ a {
 }
 a:hover, a:focus {
 	text-decoration: none;
-	color: #7bc3d1;
+	color: #809A7C;
 }
 ul, ol {
 	list-style: none;
@@ -118,7 +118,7 @@ hr {
 }
 .navbar-custom .nav li a:hover {
 	outline: 0;
-	color: #7bc3d1;
+	color: #809A7C;
 	background-color: transparent;
 }
 .navbar-custom .nav li a:focus, .navbar-custom .nav li a:active {
@@ -133,7 +133,7 @@ hr {
 	background-color: rgba(255,255,255,.3);
 }
 .navbar-custom .nav li.active a:hover {
-	color: #fff;
+	color: #809A7C;
 }
 .btn-default {
 	color: #fff;
@@ -744,4 +744,5 @@ header .intro-text {
 .nameMain {
     font-family: 'Oswald', sans-serif;
     font-size:32px;
+    color:white;
 }
