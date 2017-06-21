@@ -1,31 +1,285 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+<div id="nav">
+    <nav class="navbar navbar-custom">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
+                <a class="navbar-brand page-scroll nameMain" href="#page-top">Craig Spreeman</a>
+            </div>
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="hidden"> <a href="#page-top"></a> </li>
+                    <li> <a class="page-scroll" href="#about">About</a> </li>
+                    <li> <a class="page-scroll" href="#skills">Skills</a> </li>
+                    <li> <a class="page-scroll" href="#portfolio">Portfolio</a> </li>
+                    <li> <a class="page-scroll" href="#resume">Resume</a> </li>
+                    <li> <a class="page-scroll" href="#contact">Contact</a> </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 </div>
-
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+<!-- About Section -->
+<div id="about">
+    <div class="container">
+        <div class="section-title text-center center">
+            <h2>About Me</h2>
+            <hr>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center"></div>
+            <div class="col-md-8 col-md-offset-2">
+                <div class="about-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare.</p>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+</div>
+<!-- Skills Section -->
+<div id="skills" class="text-center">
+    <div class="container">
+        <div class="section-title center">
+            <h2>Skills</h2>
+            <hr>
+        </div>
+        <div class="row">
+            <div class="col-md-2 col-sm-4 skill">
+                <span class="chart" data-percent="95"> <span class="dev devicon-html5-plain"></span> </span>
+                <h4>HTML5</h4>
+            </div>
+            <div class="col-md-2 col-sm-4 skill">
+                <span class="chart" data-percent="85"> <span class="dev fa fa-css3"></span> </span>
+                <h4>CSS3</h4>
+            </div>
+            <div class="col-md-2 col-sm-4 skill">
+                <span class="chart" data-percent="80"> <span class="dev devicon-jquery-plain"></span> </span>
+                <h4>jQuery</h4>
+            </div>
+            <div class="col-md-2 col-sm-4 skill">
+                <span class="chart" data-percent="80"> <span class="dev devicon-angularjs-plain"></span> </span>
+                <h4>Angularjs</h4>
+            </div>
+            <div class="col-md-2 col-sm-4 skill">
+                <span class="chart" data-percent="80"> <span class="dev devicon-bootstrap-plain"></span> </span>
+                <h4>Bootstrap</h4>
+            </div>
+            <div class="col-md-2 col-sm-4 skill">
+                <span class="chart" data-percent="80"> <span class="dev devicon-chrome-plain"></span> </span>
+                <h4>Chrome Tools</h4>
+            </div>
+            <div class="col-md-2 col-sm-4 skill">
+                <span class="chart" data-percent="80"> <span class="dev devicon-csharp-plain"></span> </span>
+                <h4>C#</h4>
+            </div>
+            <div class="col-md-2 col-sm-4 skill">
+                <span class="chart" data-percent="80"> <span class="dev devicon-dot-net-plain"></span> </span>
+                <h4>.Net</h4>
+            </div>
+            <div class="col-md-2 col-sm-4 skill">
+                <span class="chart" data-percent="80"> <span class="dev devicon-javascript-plain"></span> </span>
+                <h4>Javascript</h4>
+            </div>
+            <div class="col-md-2 col-sm-4 skill">
+                <span class="chart" data-percent="80"> <span class="dev fa fa-database"></span> </span>
+                <h4>SQL</h4>
+            </div>
+            <div class="col-md-2 col-sm-4 skill">
+                <span class="chart" data-percent="80"> <span class="dev devicon-trello-plain"></span> </span>
+                <h4>Trello</h4>
+            </div>
+            <div class="col-md-2 col-sm-4 skill">
+                <span class="chart" data-percent="80"> <span class="dev devicon-visualstudio-plain"></span> </span>
+                <h4>Visual Studio</h4>
+            </div>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+</div>
+<!-- Portfolio Section -->
+<div id="portfolio">
+    <div class="container">
+        <div class="section-title text-center center">
+            <h2>Portfolio</h2>
+            <hr>
+        </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="row">
+            <div class="portfolio-items">
+                <div class="col-sm-6 col-md-3 col-lg-3 web">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="https://aninsideconnection.azurewebsites.net/" title="Project description">
+                                <div class="hover-text">
+                                    <h4>An Inside Connection</h4>
+                                    <small>Full Stack Web Design</small>
+                                </div>
+                                <img src="~/img/portfolio/08-large.jpg" class="img-responsive" alt="Project Title">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-items">
+                <div class="col-sm-6 col-md-3 col-lg-3 web">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="" title="Project description">
+                                <div class="hover-text">
+                                    <h4>MITM</h4>
+                                    <small>Full Stack Web Design</small>
+                                </div>
+                                <img src="~/img/portfolio/08-large.jpg" class="img-responsive" alt="Project Title">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Achievements Section -->
+<div id="achievements" class="text-center">
+    <div class="container">
+        <div class="section-title center">
+            <h2>Some Stats</h2>
+            <hr>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="200ms">
+                <div class="achievement-box">
+                    <span class="count">310</span>
+                    <h4>Happy Clients</h4>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="400ms">
+                <div class="achievement-box">
+                    <span class="count">4700</span>
+                    <h4>Hours of Work</h4>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="600ms">
+                <div class="achievement-box">
+                    <span class="count">30</span>
+                    <h4>Awards Won</h4>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="800ms">
+                <div class="achievement-box">
+                    <span class="count">8</span>
+                    <h4>Years of Experience</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Resume Section -->
+<div id="resume" class="text-center">
+    <div class="container">
+        <div class="section-title center">
+            <h2>Experience</h2>
+            <hr>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image">
+                            <h4>
+                                Present <br>
+                                - <br>
+                                Jan 2017
+                            </h4>
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>ReWork Work</h4>
+                                <h4 class="subheading">Full Stack .Net Developer</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Built on  ASP.NET MVC backed by Microsoft SQL server database exposed via RESTful Web API. The web client employs AngularJS and responsive web design practices for desktop,
+                                 tablet and mobile. Employed agile development process with daily standups and Trello for task management.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <h4>
+                                Dec 2016 <br>
+                                - <br>
+                                Jan 2009
+                            </h4>
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>Jack's Surf and Sport</h4>
+                                <h4 class="subheading">General Manager</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Managed 30+ employees, multiple locations, created and implemented trainings that boosted productivity,
+                                 created and executed strategies to increase revenue. Responsible for a multi-million dollar store front during a full day's business hours(12).</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image">
+                            <h4>
+                                Present <br>
+                                - <br>
+                                Jan 2012
+                            </h4>
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4></h4>
+                                <h4 class="subheading">Self Teaching</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Developed small side projects along with reading and immersing myself in technology.</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Contact Section -->
+<div id="contact" class="text-center">
+    <div class="container">
+        <div class="section-title center">
+            <h2>Contact</h2>
+            <hr>
+        </div>
+        <div class="col-md-8 col-md-offset-2">
+            <div class="col-md-4">
+                <i class="fa fa-map-marker fa-2x"></i>
+                <p>
+                    Huntington Beach, CA 92646
+                </p>
+            </div>
+            <div class="col-md-4">
+                <i class="fa fa-envelope-o fa-2x"></i>
+                <p>CraigSpreeman@gmail.com</p>
+            </div>
+            <div class="col-md-4">
+                <i class="fa fa-phone fa-2x"></i>
+                <p>Please Contact For Phone</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="col-md-8 col-md-offset-2">
+            <div class="social">
+                <ul>
+                    <li><a href="https://github.com/CSpreeman"><i class="fa fa-github"></i></a></li>
+                    <li><a href="https://www.instagram.com/chihuahua_dad/"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/craig-spreeman-925319b5/"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
     </div>
 </div>

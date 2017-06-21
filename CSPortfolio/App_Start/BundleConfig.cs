@@ -21,11 +21,18 @@ namespace CSPortfolio
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js",
-                      "~/Scripts/respond.js"));
+                      "~/Scripts/respond.js",
+                      "~/Scripts/easypiechart.js",
+                      "~/Scripts/jquery.counterup.js",
+                      "~/Scripts/jquery.isotope.js",
+                      "~/Scripts/jquery.prettyPhoto.js"));   
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/site.css",
+                      "~/Content/font-awesome/css/font-awesome.css",
+                      "~/Content/prettyPhoto.css",
+                      "~/Content/style.css"));
         }
     }
 }
